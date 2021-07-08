@@ -1,32 +1,33 @@
-/*!
-
- =========================================================
- * Now-ui-kit - v1.1.0
- =========================================================
-
- * Product Page: http://www.creative-tim.com/product/now-ui-kit
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-
-/*     brand Colors              */
-
-/*      light colors         */
-
-/* ========================================================================
- * bootstrap-switch - v3.3.2
- * http://www.bootstrap-switch.org
- * ========================================================================
- * Copyright 2012-2013 Mattia Larentis
- * http://www.apache.org/licenses/LICENSE-2.0
- */
+ /* 7 july */
+ .tagsHeading{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    color: rgb(34, 34, 34);
+    text-transform: none;
+    margin-top: 10px;
+}
+.tags{
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    font-size: 12px;
+    padding: 3px 10px;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 5px 10px 0;
+    color: #1d4354;
+    cursor: pointer;
+}
+.tagsText{
+    margin-bottom: 0px;
+}
+.discriptionText{
+    font-size: 13px;
+    color: #222222;
+}
+.descriptionLink{
+    margin-top: -100px;
+}
 
 .bootstrap-switch {
     display: inline-block;
@@ -5057,6 +5058,7 @@ Created using IcoMoon - icomoon.io
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
     }
+
     @keyframes topbar-x {
         0% {
             top: 0px;
@@ -6156,7 +6158,6 @@ Created using IcoMoon - icomoon.io
 }
 
 .gallery figure.cc-effect img, .gallery figure.cc-effect .h4 {
-    transform: scale(1.06, 1.06);
 }
 
 .gallery figure.cc-effect img, .gallery figure.cc-effect figcaption::before, .gallery figure.cc-effect figcaption::after, .gallery figure.cc-effect p {
@@ -6185,6 +6186,7 @@ Created using IcoMoon - icomoon.io
 
 .gallery figure.cc-effect:hover figcaption::after, .gallery figure.cc-effect:hover .h4, .gallery figure.cc-effect:hover p, .gallery figure.cc-effect:hover img {
     transition-delay: 0.15s;
+    transform: scale(1.06, 1.06);
 }
 
 /* Header */
